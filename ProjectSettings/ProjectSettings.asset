@@ -740,7 +740,8 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Standalone: META_SDK
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -848,7 +849,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: faa73aa8-fbf6-487b-b91f-5065bb8e946e
   framebufferDepthMemorylessMode: 0
