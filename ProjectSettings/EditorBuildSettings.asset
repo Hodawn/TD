@@ -4,7 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 7ad0d638469072140a3c769bde1f53e5
+  - enabled: 1
+    path: Assets/Scenes/ChapterScene.unity
+    guid: 4d71f30ba700c5c4187c75f8e34d5406
+  - enabled: 1
+    path: Assets/Scenes/KoreaScene.unity
+    guid: 1603007c67cf384439f1ce2718b29929
+  - enabled: 1
+    path: Assets/Scenes/04 - City.unity
+    guid: 6f4a8e0b02db341dfbd3b02429834ab7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2df027e1dc5d4c2448bd2c6adb221379, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6d224fbe49ad7bc43906162148923f45, type: 2}
