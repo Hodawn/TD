@@ -15128,6 +15128,34 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4293256677
       objectReference: {fileID: 0}
+    - target: {fileID: 253940703720798340, guid: 1caab6790b5e6154fa43dcde845f668f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 253940703720798340, guid: 1caab6790b5e6154fa43dcde845f668f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 253940703720798340, guid: 1caab6790b5e6154fa43dcde845f668f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 401460876}
+    - target: {fileID: 253940703720798340, guid: 1caab6790b5e6154fa43dcde845f668f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 253940703720798340, guid: 1caab6790b5e6154fa43dcde845f668f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnLogin
+      objectReference: {fileID: 0}
+    - target: {fileID: 253940703720798340, guid: 1caab6790b5e6154fa43dcde845f668f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LoginManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 253940703720798340, guid: 1caab6790b5e6154fa43dcde845f668f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 294853815543677284, guid: 1caab6790b5e6154fa43dcde845f668f, type: 3}
       propertyPath: m_fontColor.b
       value: 0.8980392

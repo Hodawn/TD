@@ -27,4 +27,12 @@ public class LoginManager : MonoBehaviour
             Debug.Log("로그인 실패: 아이디 또는 비밀번호가 틀렸습니다.");
         }
     }
+    public void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.Q))
+        {
+            // 씬 전환
+            SceneManager.LoadScene(nextSceneName);
+        }
+    }
 }

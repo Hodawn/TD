@@ -6,7 +6,7 @@ public class SplineAnimationController : MonoBehaviour
     public SplineContainer splineContainer;
     public SplineAnimate splineAnimate;
     public float playSpeed = 1.0f;
-    private bool isPlaying = false;
+    public bool isPlaying = false;
     public bool isLoop = false;
     public float duration;
     private float previousDuration;
